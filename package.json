@@ -1,0 +1,24 @@
+{
+  "name": "djs-v14-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon ./src/index.js",
+    "dev:report": "nodemon ./src/report-user-command.js",
+    "dev:schedule": "nodemon ./src/schedule-messages.js",
+    "start": "node ./src/index.js"
+  },
+  "keywords": [],
+  "author": "sheep",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^14.7.1",
+    "dotenv": "^16.0.3",
+    "node-schedule": "^2.1.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
